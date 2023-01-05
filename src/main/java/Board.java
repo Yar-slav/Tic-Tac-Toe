@@ -9,7 +9,7 @@ public class Board {
     public final int DRAW = 1;
     public final int X_WIN = 2;
     public final int O_WIN = 3;
-    String[][] mas = new String[LINE][COLUMN];
+    public String[][] mas = new String[LINE][COLUMN];
 
     public void showBoard() {
         System.out.println("---------");

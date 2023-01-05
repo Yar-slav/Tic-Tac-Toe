@@ -70,7 +70,7 @@ public class Main {
         }
     }
 
-    private static boolean validateCoordinate(int line, int column) {
+    static boolean validateCoordinate(int line, int column) {
         if (!(line >= 0 && line < board.LINE && column >= 0 && column < board.COLUMN)) {
             System.out.println("Coordinates should be from 1 to 3!");
             return false;
